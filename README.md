@@ -18,8 +18,8 @@ node1.set_next(node2);
 node2.set_next(node3);
 
 std::cout << node1.get_data() << "\n"; // Output 4;
-std::cout << node1.get_next().get_data<std::string>() << "\n"; // Output: This node holds a string\n
-std::cout << node1.get_next().get_next().get_data<std::vector<int>>()[1] << "\n"; // Output: 2\n
+std::cout << node1.get_next().get_data<std::string>() << "\n"; // Output: This node holds a string
+std::cout << node1.get_next().get_next().get_data<std::vector<int>>()[1] << "\n"; // Output: 2
 ```
 
 ### Note: I wrote Flexy list only as an intellectual excerscise, as a way to teach myself C++. It is not really intended for serious use, although, anyone who wishes to is welcome to do so at their own risk.
