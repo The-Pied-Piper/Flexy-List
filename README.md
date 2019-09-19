@@ -2,7 +2,7 @@
 
 Just another linked list implementation for C++, with a twist. A flexy list can hold multiple data types in the same list.
 
-A typical example might be:
+A typical use might be:
 
 ```c++
 std::vector<int> vec = {1, 2, 3};
